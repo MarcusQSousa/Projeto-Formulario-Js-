@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="src/css/style.css">
+
+
+		<title>Document</title>
+	</head>
+	<body>
+		<section>
+			<div>
+				<h2>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h2>
+				<p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+			</div>
+
+			<form method="get" action="/" id="formulario">
+
+				<input class="form-input" type="text" id="inputNome" name="inputNome" placeholder="Nome completo*"> <span class="error-msg">campo obrigatório</span>
+				<input class="form-input" type="text" id="inputEmail" name="inputEmail" placeholder="Email*"> <span class="error-msg">campo obrigatório</span>
+				<input class="form-input" type="tel" id="inputTelefone" name="inputTelefone" placeholder="Telefone*"> <span class="error-msg">campo obrigatório</span>
+				<textarea class="form-input" id="inputMensagem" name="inputMensagem" placeholder="Mensagem*"></textarea> <span class="error-msg">campo obrigatório</span>
+
+				<p>*Campos obrigatórios</p>
+
+				<button type="submit" id="submitar">Enviar</button>
+			</form>
+
+		</section>
+
+		<div class="teste">
+			<div class="fiote">1</div>
+			<div class="fiote">2</div>
+			<div class="fiote">3</div>
+			<div class="fiote">4</div>
+
+		</div>
+
+        <script src="src/js/main.js"></script>
+	</body>
+</html>
